@@ -25,7 +25,7 @@ public class Play {
      */
     public void start(){
         try {
-            UserInput userInput = new UserInputFile("/Users/geoj/Downloads/WHGPlatformTechTest/data/sample-moves-invalid.txt");
+            UserInput userInput = new UserInputFile("/WHGPlatformTechTest/data/sample-moves-invalid.txt");
             while(play) {
                 int[] nextMove = userInput.nextMove();
                     if(nextMove != null) {
